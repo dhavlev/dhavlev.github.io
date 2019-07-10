@@ -19,7 +19,7 @@ The world is full of possibilities and I like to push my limits to achieve the i
 | CEO Award | Continuum Managed Solutions Pvt. Ltd. | 2018 |
 | CEO Award | Travelex India Pvt. Ltd.              | 2017 |
 
-## Education
+## EDUCATION
 
 | Course                          | University           | Year |
 | :------------------------------ | :------------------- | :--- |
@@ -28,7 +28,7 @@ The world is full of possibilities and I like to push my limits to achieve the i
 | Higher Secondary School         | University of Mumbai | 2002 |
 | Secondary School Certificaete   | Maharashtra Board    | 2000 |
 
-## Skills
+## SKILLS
 
 ### Cloud
 
