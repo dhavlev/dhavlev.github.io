@@ -1,8 +1,5 @@
 ---
 layout: posts
-classes:
-  - landing
-  - dark-theme
 author: visharad_dhavle
 author_profile: true
 
