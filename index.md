@@ -1,11 +1,14 @@
 ---
-layout: default
+layout: splash
+classes:
+  - landing
+  - dark-theme
 ---
 
 ## I AM
 
-Born on 17th December 1983, Visharad Govind Dhavle is an Indian IT professional with proven track record in executing IT projects.  
-  
+Born on 17th December 1983, Visharad Govind Dhavle is an Indian IT professional with proven track record in executing IT projects.
+
 Visharad is high-energy, confident IT professional with an infectious enthusiasm for technology. He holds Masters in Computer Application with 9 years of comprehensive experience in application design, development, testing, release management and DevOps. He is recognised for executing multiple roles as developer, application architect, technical lead, devops engineer, mentor and trainer.
 
 ## I BELIEVE
@@ -32,20 +35,20 @@ The world is full of possibilities and I like to push my limits to achieve the i
 
 ### Cloud
 
-`AWS` 
+`AWS`
 
 ### DevOps
 
 `Kubernetes` `Helm` `Istio` `Docker` `EKS` `Kops` `EKSCTL` `KubeAdm`
-`Git` `GitHub` `Gerrit` `Bitbucket`  
-`Jenkins` `Bamboo`  
-`Terraform`  `Jenkins Global Shared Library`  
-`Ansible`  
-`Artifactory`  
-`HAProxy` `Nginx` `Tomcat` `Apache` `IIS`  
-`Black Duck`  
-`Jira` `Confluence` `MediaWiki`  
-`Prometheus` `Dynatrace` `Nagios`  
+`Git` `GitHub` `Gerrit` `Bitbucket`
+`Jenkins` `Bamboo`
+`Terraform`  `Jenkins Global Shared Library`
+`Ansible`
+`Artifactory`
+`HAProxy` `Nginx` `Tomcat` `Apache` `IIS`
+`Black Duck`
+`Jira` `Confluence` `MediaWiki`
+`Prometheus` `Dynatrace` `Nagios`
 
 ### Languages
 

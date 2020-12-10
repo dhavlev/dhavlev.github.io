@@ -1,0 +1,11 @@
+visharad_dhavle:
+  name        : "Visharad G. Dhavle"
+  bio         : "Guy with the average IQ"
+  avatar      : "/assets/images/visharad-dhavle.jpeg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:billyrick@rick.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://thewhip.com"
