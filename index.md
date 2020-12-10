@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: home
 author: visharad_dhavle
 author_profile: true
 
