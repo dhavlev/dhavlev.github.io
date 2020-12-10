@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: posts
 classes:
   - landing
   - dark-theme
