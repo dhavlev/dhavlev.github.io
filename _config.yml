@@ -264,7 +264,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      
+
   # _pages
   - scope:
       path: ""
@@ -277,4 +277,4 @@ defaults:
 collections:
   portfolio:
     output: true
-    permalink: /:collection/:path/
+    permalink: /me/about/
