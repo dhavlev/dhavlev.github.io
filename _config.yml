@@ -277,4 +277,4 @@ defaults:
 collections:
   portfolio:
     output: true
-    permalink: /portfolio/
+    permalink: /me/about/
