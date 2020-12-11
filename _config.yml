@@ -246,10 +246,13 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts/tech"
       type: posts
     values:
-      layout: single
+      layout: post
+      breadcrumbs:
+        - label: "Blog articles"
+          url: /articles/
       author_profile: true
       read_time: true
       comments: true
