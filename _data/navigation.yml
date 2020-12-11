@@ -1,4 +1,10 @@
 main:
+  - title: "Portfolio"
+    url: /portfolio/
+
+  - title: "Posts"
+    url: /posts/
+
   - title: "About"
     url: /me/about/
 
@@ -7,9 +13,3 @@ main:
 
   - title: "Resume"
     url: /me/resume/
-
-  - title: "Portfolio"
-    url: /portfolio/
-    
-  - title: "External Link"
-    url: https://google.com
