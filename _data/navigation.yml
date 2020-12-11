@@ -1,11 +1,15 @@
 main:
   - title: "About"
     url: /me/about/
+
   - title: "Contact"
     url: /me/contact/
+
   - title: "Resume"
     url: /me/resume/
+
   - title: "Portfolio"
     url: /portfolio/
+    
   - title: "External Link"
     url: https://google.com
