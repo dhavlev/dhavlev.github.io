@@ -264,6 +264,15 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
 
 collections:
   portfolio:
