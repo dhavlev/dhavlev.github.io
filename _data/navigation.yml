@@ -1,6 +1,10 @@
 main:
-  - title: "Posts"
-    url: /portfolio/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/
+  - title: "Resume"
+    url: /Resume/
   - title: "Portfolio"
     url: /portfolio/
   - title: "External Link"
