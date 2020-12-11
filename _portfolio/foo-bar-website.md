@@ -1,7 +1,7 @@
 ---
 title: "Foo Bar Identity"
 layout: collection
-permalink: /portfolio/
+#permalink: /portfolio/
 collection: portfolio
 entries_layout: grid
 classes: wide
