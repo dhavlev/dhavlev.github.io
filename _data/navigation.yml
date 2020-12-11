@@ -6,7 +6,7 @@ main:
     url: /posts/
 
   - title: "About"
-    url: /me/about/
+    url: /:me/:about/
 
   - title: "Contact"
     url: /me/contact/
