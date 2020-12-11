@@ -249,7 +249,7 @@ defaults:
       path: "_posts/tech"
       type: posts
     values:
-      layout: post
+      layout: single
       breadcrumbs:
         - label: "Blog articles"
           url: /articles/
