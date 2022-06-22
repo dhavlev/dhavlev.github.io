@@ -1,0 +1,20 @@
+main:
+  - title: "blog"
+    url: /blog/
+
+  - title: "About"
+    url: /about/
+
+  - title: "SRE"
+    url: /sre/
+
+  - title: "Books"
+    url: /books/
+
+
+sre:
+  - title: "module-1"
+    url: /sre/module-1/
+
+  - title: "module-2"
+    url: /sre/module-2/

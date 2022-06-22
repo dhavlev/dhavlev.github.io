@@ -1,3 +1,99 @@
-theme: jekyll-theme-hacker
-title: Visharad G. Dhavle
-description: You can find professional summary of Visharad here
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+plugins:
+  - jekyll-include-cache
+
+
+#### header
+title: &title "life in journal"
+subtitle: "Version 2.0"
+locale: "en-GB"
+#logo: "/assets/images/vd-logo.PNG"
+masthead_title: &title # overrides title
+search: true
+#### end header
+
+
+name: &name "Visharad Dhavle"
+description: "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
+#url: "https://dhavlev.github.io"
+#baseurl: "/me"
+
+#### navigation
+permalink: /:categories/:title/
+breadcrumbs: true
+# not sure why below settings do not work
+#breadcrumb_home_label : "Start"
+#breadcrumb_separator  : ">"
+#### end navigation
+
+#### misc
+date_format: "%Y-%m-%d"
+teaser: /assets/images/teaser.jpg # default teaser image when image is not available
+include:
+  - .htaccess
+  - _pages
+lunr:
+  search_within_pages: true
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikiped    
+#### end misc
+
+
+#### defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values: 
+      show_date: true
+      read_time: true
+      author_profile: true
+      share: true
+  # _pages      
+  - scope:
+      path: ""
+      type: pages
+    values:      
+      author_profile: true   
+  # _portfolio
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: single
+      author_profile: false
+      share: true      
+#### end defaults
+      
+#### default author
+### if author_profile is true on the posts but author is not listed then this is the default profile for the posts
+author:
+  name     : &name
+  avatar   : "/assets/images/sing2-johnny.png"
+  bio      : "My awesome biography constrained to a sentence or two goes here."
+  location : "Somewhere, UK"  
+#### end default author  
+
+#### footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dhavlev"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"  
+#### end footer      
+
+#### collection
+collections:
+  books:
+    output: true
+    permalink: /:collection/:path/  
+#### end collection    

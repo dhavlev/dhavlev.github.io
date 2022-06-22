@@ -1,52 +1,20 @@
 ---
-layout: splash
-classes:
-  - landing
-  - dark-theme
-permalink: /
-hidden: true # not sure what is this
-title: "Layout: Header Image Overlay"
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/teaser.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
-    - label: "More Info"
-      url: "https://unsplash.com"      
-excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
-feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
+title: Title of Your Post
+layout: single
+
+author: visharad dhavle
+author_profile: true
+categories: tech
+toc: true
+toc_label: "Helpers"
+toc_icon: "cogs"
 ---
-
-{% include feature_row %}
-
+# What is SRE
+## Why we need SRE
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at. Sollicitudin aliquam ultrices sagittis orci a. Mattis enim ut tellus elementum sagittis vitae et leo. Sem fringilla ut morbi tincidunt augue interdum velit. Amet nisl purus in mollis nunc sed id semper. Nulla facilisi morbi tempus iaculis urna id. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Enim praesent elementum facilisis leo vel fringilla est ullamcorper. Eu augue ut lectus arcu bibendum at. Dictum varius duis at consectetur lorem donec massa. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Mauris ultrices eros in cursus turpis massa tincidunt dui ut. Nunc pulvinar sapien et ligula ullamcorper malesuada. At in tellus integer feugiat. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed.
-
+## Why we need SRE
 Sed tempus urna et pharetra pharetra. Quis enim lobortis scelerisque fermentum dui faucibus in. Tellus id interdum velit laoreet id donec ultrices tincidunt arcu. Varius morbi enim nunc faucibus a pellentesque sit amet. Massa id neque aliquam vestibulum morbi blandit cursus risus at. In iaculis nunc sed augue lacus viverra vitae congue. Nisi vitae suscipit tellus mauris a diam. Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Tincidunt arcu non sodales neque sodales. Id cursus metus aliquam eleifend mi. At augue eget arcu dictum varius duis. Placerat vestibulum lectus mauris ultrices eros in cursus turpis.
-
+## Why we need SRE
 Massa sapien faucibus et molestie. Ornare arcu dui vivamus arcu felis. Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor. Condimentum vitae sapien pellentesque habitant. Et tortor at risus viverra adipiscing at. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Mi eget mauris pharetra et ultrices neque ornare aenean. Mi eget mauris pharetra et ultrices neque ornare. A scelerisque purus semper eget. Tincidunt vitae semper quis lectus nulla at. Pharetra et ultrices neque ornare. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Tellus rutrum tellus pellentesque eu tincidunt. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. Non sodales neque sodales ut etiam sit amet nisl purus. Orci dapibus ultrices in iaculis nunc sed. Porta nibh venenatis cras sed felis. Id consectetur purus ut faucibus.
 
 Mollis aliquam ut porttitor leo a. Nunc mattis enim ut tellus elementum sagittis. Ultricies tristique nulla aliquet enim tortor. Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Morbi leo urna molestie at elementum eu facilisis. Tristique nulla aliquet enim tortor at auctor urna nunc. Blandit libero volutpat sed cras ornare arcu. Dignissim convallis aenean et tortor. Vestibulum rhoncus est pellentesque elit. Lorem ipsum dolor sit amet consectetur adipiscing. Eu volutpat odio facilisis mauris sit amet massa. Accumsan in nisl nisi scelerisque eu ultrices vitae. Dignissim convallis aenean et tortor at risus. Sagittis purus sit amet volutpat consequat. Neque ornare aenean euismod elementum nisi quis eleifend quam. Elementum integer enim neque volutpat ac tincidunt vitae semper quis. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant.

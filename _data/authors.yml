@@ -1,0 +1,14 @@
+visharad dhavle:
+  name        : "Visharad Dhavle"
+  bio         : "Learning through mistakes"
+  avatar      : "/assets/images/sing2-johnny.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:visharad.dhavle@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://dhavlev.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/dhavlev"
