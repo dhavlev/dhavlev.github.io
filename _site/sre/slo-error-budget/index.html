@@ -1,0 +1,406 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>SLO &amp; Error Budget - life in journal</title>
+<meta name="description" content="A flexible Jekyll theme for your blog or site with a minimalist aesthetic.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="life in journal">
+<meta property="og:title" content="SLO &amp; Error Budget">
+<meta property="og:url" content="http://localhost:4000/sre/slo-error-budget/">
+
+
+  <meta property="og:description" content="A flexible Jekyll theme for your blog or site with a minimalist aesthetic.">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/sre/slo-error-budget/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Visharad Dhavle",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="life in journal Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          life in journal
+          <span class="site-subtitle">Version 2.0</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/blog/">blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/sre/what-is-sre/">SRE</a>
+            </li><li class="masthead__menu-item">
+              <a href="/books/">Books</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="http://localhost:4000/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/sre" itemprop="item"><span itemprop="name">Sre</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">SLO & Error Budget</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">SRE</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/sre/what-is-sre/">What is SRE</a></li>
+          
+            <li><a href="/sre/slo-error-budget/" class="active">SLO & Error Budget</a></li>
+          
+            <li><a href="/sre/module-2/">module-2</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="SLO &amp; Error Budget">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">SLO &amp; Error Budget
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-cogs"></i> Helpers</h4></header>
+              <ul class="toc__menu"><li><a href="#service-level-objectives-slos">Service level objectives (SLOs)</a></li><li><a href="#error-budget">Error budget</a></li><li><a href="#policies-for-non-adherant-slo-targets">Policies for non-adherant SLO targets</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="service-level-objectives-slos">Service level objectives (SLOs)</h2>
+<ul>
+  <li>Google has linked customer happiness with the measures of SLOs.</li>
+  <li>Behavious of a service or product will dictate if customers were served better and were happy while an interaction with services.</li>
+  <li>SLO is a goal which states how well a service should perform or operate or behave when deployed.</li>
+  <li>Setting up an SLO is a most foundational activity of an SRE practice.</li>
+  <li>A service can have one or more SLOs attached to it.</li>
+  <li>An SLO can be set against the application’s latency and availability measurements.</li>
+  <li>100% SLO is impractical and will stagnate the ability to rollout a new feature or maintenance of a system or service.</li>
+  <li>Missed SLO should have consequenace.</li>
+</ul>
+
+<h2 id="error-budget">Error budget</h2>
+<ul>
+  <li>Error budget defines a threshold for a service to error in terms of latency, availibility etc.</li>
+  <li>With 99.9% availability SLO, out of 1M web requests in a particular month 1000 web requests are allowed to fail. Thus, 0.01% becomes the Error Budget for that service.</li>
+  <li>Another example of an SLO and Error Budget could be a number of tickets must complete automatically and number of tickets required a manual intervention respectively. For example, out of 1000 tickets with 75% SLO, 750 tickets should close automatically leaving 250 tickets to be completed manually with the Error Budget of 25%.</li>
+  <li>Error budget can be utilised for experimentation and launching new features. Small changes are risk-free and avoids the risk burning the Error Budget rapidly.</li>
+  <li>Error should be revisited regularly and adujested in agreement with product, support team and business.</li>
+</ul>
+
+<h2 id="policies-for-non-adherant-slo-targets">Policies for non-adherant SLO targets</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dimension</th>
+      <th>SLO</th>
+      <th>Policy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Volume/traffic</td>
+      <td>Does service handles right volume of data or traffic?</td>
+      <td>Address scalability issues</td>
+    </tr>
+    <tr>
+      <td>Availability</td>
+      <td>Is service available when needed by the user?</td>
+      <td>Address downtime issues</td>
+    </tr>
+    <tr>
+      <td>Latency</td>
+      <td>Does service respond with the accurate response within the agreed time?</td>
+      <td>Address performace issues</td>
+    </tr>
+    <tr>
+      <td>Errors</td>
+      <td>Does service respond with positive http response codes?</td>
+      <td>Rectify issues with infrastructure or dependencies</td>
+    </tr>
+    <tr>
+      <td>Tickets</td>
+      <td>Are support tickets getting completed on time?</td>
+      <td>Automate more manual processes</td>
+    </tr>
+  </tbody>
+</table>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/mmistakes" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/dhavlev" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/mmistakes" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Visharad Dhavle. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
