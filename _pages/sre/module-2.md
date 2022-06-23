@@ -1,5 +1,5 @@
 ---
-title: "Module 2"
+title: "SLO"
 permalink: /sre/module-2/
 layout: single
 sidebar:

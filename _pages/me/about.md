@@ -1,8 +1,6 @@
 ---
 permalink: /about/
 layout: single
-sidebar:
-  nav: "foo"
 toc: true
 toc_label: "Helpers"
 toc_icon: "cogs"  
