@@ -28,6 +28,7 @@ toc_icon: "cogs"
 
 ## Examples of SLO & Error Budget
 - Service Availability SLO of 99.9% in a particular month
+
 | Request | SLO    | Error Budget |
 | ------- | ------ | ------------ |
 | 1000000 | 999000 | 1000         |
@@ -35,6 +36,7 @@ toc_icon: "cogs"
 Only 1000 request in a month can return an error response.
 
 - User Login SLO of 99.99% in particular month
+
 | Login attempts | SLO    | Error Budget |
 | -------------- | ------ | ------------ |
 | 50000          | 49,995 | 5            |

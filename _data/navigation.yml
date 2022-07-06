@@ -18,5 +18,5 @@ sre:
         url: /sre/what-is-sre/
       - title: "SLO & Error Budget"
         url: /sre/slo-error-budget/
-      - title: "module-2"
-        url: /sre/module-2/
+      - title: "Toil"
+        url: /sre/toil/
