@@ -10,7 +10,7 @@ toc_icon: "cogs"
 ---
 
 ## What is Toil
-Any important task e.g. deployments, cache refresh etc. which is manual, repetitive, automatable, linearly as system grows.
+Any important task e.g. deployments, cache refresh etc. which is manual, repetitive, automatable, scales linearly as system grows.
 
 ## Examples of Toil
 - Manual or semi-manual software release
@@ -33,3 +33,10 @@ Any important task e.g. deployments, cache refresh etc. which is manual, repetit
 - Attrition due to job non-satisfaction
 - Never ending manual tasks
 - Employee burnout
+
+## What can be done to reduce Toil
+- Dedicated engineering time to work on toil
+- Developing an external automation like scripts to deploy a service
+- Developing an internal automation like as part of a service
+- SRE works 50% enginerring tasks like automating toil and rest 50% on manual operation tasks. Anything above 50% manual ops is redirected to product team.
+

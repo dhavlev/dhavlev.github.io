@@ -20,3 +20,5 @@ sre:
         url: /sre/slo-error-budget/
       - title: "Toil"
         url: /sre/toil/
+      - title: Monitoring & Service Level Indicators
+        url: /sre/monitoring-sli/
